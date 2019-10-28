@@ -7,18 +7,98 @@ Date Revised: 10/23/2019
 <html lang="en">
 	<head>
 		<title>Menu</title>
+		<link href="Styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<style>
+			body { 
+				background-color: dimgray;
+				font-family: arial, helvetica, sans-serif;
+				color: #0d1f2d;
+				max-width: 900px;
+				margin: 0 auto;
+			}		
+			h1 {
+				font-size: 2.5em;
+			}
+			nav {
+				border-top: 3px dashed #546a7b;
+				border-bottom: 3px dashed #546a7b;
+				margin-top: 4px;
+			}
+
+			label, fieldset{
+				font-size: 1.1em;
+			}
+
+			input[type=text] {
+				border: 2px solid #0d1f2d;
+				width: 50%;
+				padding: 8px 8px;
+				margin: 12px 0;
+				box-sizing: border-box;
+				font-size: 1.1em;
+			}
+
+			fieldset {
+				background-color: #fef9ff;
+				width: 100%;
+				padding: 12px 20px;
+				margin: 12px 0;
+				box-sizing:	border-box;
+			}
+
+			select, textarea {
+				margin: 12px 0;
+				font-size: 1em;
+			}
+
+			input[type=submit] {
+				font-size: 1.2em;
+				background-color: #546a7b;
+				color: #fef9ff;
+				padding: 4px 8px;
+			}
+
+			input[type=submit]:hover {
+				background-color: #f2eded;
+				color: #546a7b;
+			}		
+
+			textarea {
+				width: 100%;
+				height: 200px;
+				padding: 12px 20px;
+				margin: 12px 0;
+				box-sizing: border-box;
+				border: 2px solid #0d1f2d;
+				border-radius: 3px;
+				background-color: #fff;
+				resize: none;
+			}
+				body{
+				background-color: dimgray;
+			}
+			table {
+				color: snow;
+				width:100%
+			}
+			th {
+				font-family: serif;
+				font-size: 23px;
+			}
+		</style>
 	</head>
+	
 <body>
 	<header>
-		<h1><center>Shots 4 Shots</center></h1>
-	</header>
+		<h1><center>Edwards Deli</center></h1>
 	<hr />
 	<nav>
 		<!-- Links to restaurant-index.html, contact-us.html, and menu.html -->
 		<p>
-			<a href="restaurant-index.html">Home</a>
-			<a href="menu.html">Menu</a>
-			<a href="contact-us.html">Contact Us</a>
+			<a class= "btn badge-pill" href="restaurant-index.html">Home</a>
+			<a class= "btn badge-pill" href="menu.html">Menu</a>
+			<a class= "btn badge-pill" href="contact-us.html">Contact Us</a>
 		</p>
 	</nav>
 	<hr />
@@ -28,8 +108,8 @@ Date Revised: 10/23/2019
 		<center>
 		<tr>
 			<th><center>Burgers and Fries</center></th>
-			<th>Hot Dogs and Chips</th>
-			<th>Italian Sausage and Peppers</th>
+			<th><center>Hot Dogs and Chips</center></th>
+			<th><center>Italian Sausage and Peppers</center></th>
 		</tr>
 		<tr>
 			<td><center>An America Classic!</center></td>
@@ -56,11 +136,6 @@ Date Revised: 10/23/2019
 		</tr>
 		<tr>
 			<td><center>$7.95</center></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td></td>
 			<td></td>
 			<td></td>
 		</tr>
@@ -111,6 +186,35 @@ Date Revised: 10/23/2019
 		</tr>
 	</table>
 	</center>
+	<table>
+	<style>
+		table {
+			text-align: left;
+		}
+	</style>
+	<tr>
+			<th>Beverages</th>
+	</tr>
+		<tr>
+			<td>Root Beer</td>
+			<td></td>
+			<td>$3.00</td>
+		</tr>
+		<tr>
+			<td>Bottled Water</td>
+			<td></td>
+			<td>$1.25</td>
+		</tr>
+			<td>Lemonade</td>
+			<td></td>
+			<td>$1.00</td>
+		<tr>
+			<td>Iced Tea</td>
+			<td></td>
+			<td>$1.25</td>
+		</tr>
+	</table>
+	
 	</section>
 	<hr />
 	<footer>
