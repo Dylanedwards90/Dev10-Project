@@ -1,0 +1,31 @@
+/*
+Creator: Dylan Edwards
+Date Created: 10/24/2019
+Date last modified: 10/24/2019
+*/
+header, footer {
+    background-color: firebrick;
+    color: #fef9ff;
+    height: 100px;
+    text-align: center;
+    padding: 30px 10px 20px 10px;
+}
+h1 {
+	font-family:  "Times New Roman", Times, serif;
+}
+nav {
+	border-top: thin #5b7d87 solid;
+	border-bottom: thin #5b7d87 solid;
+	padding-top: 12px;
+	padding-bottom: 12px; 
+}
+nav .btn {
+	background-color: #5b7d87;
+	color: #fef9ff;
+}
+nav .btn:hover {
+	font-weight: bold;
+}
+nav .btn:visited {
+	color: pink;
+}
